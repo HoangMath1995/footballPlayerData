@@ -1,6 +1,13 @@
 package com.example.entity;
 
 public class PlayerInfo {
+    
+    private int playerIndexId;
+    private String playerName;
+    private int playerAge;
+    private String indexName;
+    private float value;
+
     public float getValue() {
         return value;
     }
@@ -41,13 +48,8 @@ public class PlayerInfo {
         this.playerIndexId = playerIndexId;
     }
 
-    private int playerIndexId;
-    private String playerName;
-    private int playerAge;
-    private String indexName;
-    private float value;
-
     // Constructor, Getters and Setters
 }
+
 
 
